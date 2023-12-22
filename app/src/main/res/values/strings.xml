@@ -2,4 +2,6 @@
     <string name="app_name">Notes App</string>
     <string name="note_title">Title</string>
     <string name="note_text">Text</string>
+    <string name="buutton_save">Сохранить</string>
+    <string name="button_cancel">Отмена</string>
 </resources>

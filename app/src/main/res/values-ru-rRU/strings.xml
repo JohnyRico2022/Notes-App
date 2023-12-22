@@ -3,4 +3,6 @@
     <string name="app_name">Notes App</string>
     <string name="note_title">Заголовок</string>
     <string name="note_text">Текст заметки</string>
+    <string name="buutton_save">Сохранить</string>
+    <string name="button_cancel">Отмена</string>
 </resources>

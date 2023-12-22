@@ -1,2 +1,0 @@
-package ru.nikita.notesapp
-
