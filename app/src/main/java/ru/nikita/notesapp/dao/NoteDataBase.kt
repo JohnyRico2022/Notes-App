@@ -1,4 +1,5 @@
 package ru.nikita.notesapp.dao
+/*
 
 import android.content.Context
 import androidx.room.Database
@@ -23,4 +24,4 @@ abstract class NoteDataBase : RoomDatabase() {
             }
         }
     }
-}
+}*/

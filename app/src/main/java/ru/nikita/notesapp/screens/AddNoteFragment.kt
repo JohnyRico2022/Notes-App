@@ -5,12 +5,9 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.lifecycle.ViewModelProvider
-import androidx.navigation.fragment.findNavController
-import ru.nikita.notesapp.R
+
 import ru.nikita.notesapp.databinding.FragmentAddNoteBinding
-import ru.nikita.notesapp.model.Note
-import ru.nikita.notesapp.viewModels.AddNoteViewModel
+
 
 
 class AddNoteFragment : Fragment() {
@@ -21,7 +18,7 @@ class AddNoteFragment : Fragment() {
     ): View {
         binding = FragmentAddNoteBinding.inflate(layoutInflater, container, false)
 
-        val viewModel = ViewModelProvider(this).get(AddNoteViewModel::class.java)
+        /*val viewModel = ViewModelProvider(this).get(AddNoteViewModel::class.java)
 
         binding.saveButton.setOnClickListener {
             val title = binding.noteTitle.text.toString()
@@ -32,7 +29,9 @@ class AddNoteFragment : Fragment() {
 
         binding.cancelButton.setOnClickListener {
             findNavController().navigate(R.id.startFragment)
-        }
+            }
+            */
+
 
         return binding.root
 

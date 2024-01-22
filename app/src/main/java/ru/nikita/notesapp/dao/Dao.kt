@@ -1,4 +1,5 @@
 package ru.nikita.notesapp.dao
+/*
 
 import androidx.lifecycle.LiveData
 import androidx.room.Dao
@@ -17,4 +18,4 @@ interface Dao {
 
     @Query("SELECT * from note_table")
      fun getAllNotes(): LiveData<List<Note>>
-}
+}*/

@@ -1,4 +1,5 @@
 package ru.nikita.notesapp.viewModels
+/*
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -16,4 +17,4 @@ class AddNoteViewModel : ViewModel() {
             }
         }
 
-}
+}*/
